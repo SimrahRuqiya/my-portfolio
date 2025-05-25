@@ -29,7 +29,41 @@ export const portfolioData = {
             github: "https://github.com/SimrahRuqiya/space-pulse",
             image: "src/assets/spacepulse.png",
             date: "November 2024",
-            featured: true}
+            featured: true
+        },
+        {
+            id: 3,
+            title: "Cat Cafe Website",
+            description: "A website for a cat cafe that showcases the cafe's offerings, including cafe pricing, events, and drinks. It features a responsive design and proper understading of Flexbox and CSS Grid.",
+            technologies: ["HTML5", "CSS3"],
+            github: "https://github.com/SimrahRuqiya/cat-cafe",
+            image: "src/assets/catcafe.png",
+            date: "November 2024",
+            featured: true
+        },
+        {
+            id: 4,
+            title: "Cuisine and Restaurant Website",
+            description: "Collaborated to create a website on famous cuisines and few restaurants of the respective cuisines. The website features a responsive design, showcasing various cuisines and their respective restaurants.",
+            technologies: ["HTML5", "CSS3"],
+            github: "https://github.com/SimrahRuqiya/cuisine-website",
+            image: "src/assets/cuisine.png",
+            date: "November 2024",
+            featured: true
+        },
+        ],
+        networking: [
+        {
+            id: 1,
+            title: "Network Traffic Analyzer",
+            description: "Developed a command-line network traffic analyzer using PyShark to capture filtered live packets from specified interfaces, saving results to CSV. Implemented automated analysis to extract protocol statistics and traffic summaries, and visualized patterns using Seaborn and Matplotlib, including protocol distribution, top IPs, and packet lengths.",
+            technologies: ["Python", "PyShark", "Seaborn", "Matplotlib", "Pandas"],
+            github: "https://github.com/SimrahRuqiya/network-traffic-analyzer",
+            image: "src/assets/network-traffic-analyzer.png",
+            date: "May 2025",
+            featured: true
+        }
+
     ]
     }
-    }      
+}
