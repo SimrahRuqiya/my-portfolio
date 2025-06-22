@@ -18,48 +18,49 @@ const GeometricPattern: React.FC<GeometricPatternProps> = ({ side, colors }) => 
     }`}>
       <div className="flex flex-col space-y-2">
         <div className="flex gap-2">
-          <div className={`w-6 h-6 rounded-sm ${light}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${light}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
         </div>
         <div className={`flex gap-2 ${side === 'left' ? 'ml-5' : 'mr-5'}`}>
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${secondary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${secondary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
         </div>
         <div className="flex gap-2">
-          <div className={`w-6 h-6 rounded-sm ${secondary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${secondary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
         </div>
         <div className={`flex gap-2 ${side === 'left' ? 'ml-5' : 'mr-5'}`}>
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
+        </div>
+        
+      </div>
+      
+      <div className="flex flex-col space-y-2">
+        <div className="flex gap-2">
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${secondary}`}></div>
+        </div>
+        <div className={`flex gap-2 ${side === 'left' ? 'ml-5' : 'mr-5'}`}>
+          <div className={`w-10 h-10 rounded-sm ${secondary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${light}`}></div>
         </div>
       </div>
       
       <div className="flex flex-col space-y-2">
         <div className="flex gap-2">
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${secondary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${secondary}`}></div>
         </div>
         <div className={`flex gap-2 ${side === 'left' ? 'ml-5' : 'mr-5'}`}>
-          <div className={`w-6 h-6 rounded-sm ${secondary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${light}`}></div>
-        </div>
-      </div>
-      
-      <div className="flex flex-col space-y-2">
-        <div className="flex gap-2">
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${secondary}`}></div>
-        </div>
-        <div className={`flex gap-2 ${side === 'left' ? 'ml-5' : 'mr-5'}`}>
-          <div className={`w-6 h-6 rounded-sm ${secondary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${secondary}`}></div>
         </div>
         <div className="flex gap-2">
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${secondary}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${light}`}></div>
-          <div className={`w-6 h-6 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${secondary}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${light}`}></div>
+          <div className={`w-10 h-10 rounded-sm ${primary}`}></div>
         </div>
       </div>
     </div>

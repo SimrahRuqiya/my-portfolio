@@ -10,20 +10,11 @@ interface NavigationProps {
   currentPage: string;
 }
 
-const Navigation: React.FC<NavigationProps> = ({ leftColors, rightColors, currentPage }) => {
+const Navigation: React.FC<NavigationProps> = ({ currentPage }) => {
   const navItems = ['home', 'about', 'projects', 'experience', 'contact'];
   
   return (
-    <nav className="flex justify-between items-center px-16 py-8 relative">
-      {/* Left Logo */}
-      <div className="relative">
-        <div className="grid grid-cols-2 grid-rows-2 gap-0.5 w-10 h-10">
-          <div className={`w-5 h-5 rounded-sm ${leftColors.primary}`}></div>
-          <div className={`w-5 h-5 rounded-sm ${leftColors.secondary}`}></div>
-          <div className={`w-5 h-5 rounded-sm ${leftColors.secondary}`}></div>
-          <div className={`w-5 h-5 rounded-sm ${leftColors.primary}`}></div>
-        </div>
-      </div>
+    <nav className="flex justify-center items-center px-16 py-8 relative">
       
       {/* Navigation Links */}
       <ul className="flex space-x-12">
@@ -46,15 +37,6 @@ const Navigation: React.FC<NavigationProps> = ({ leftColors, rightColors, curren
         ))}
       </ul>
       
-      {/* Right Logo */}
-      <div className="relative">
-        <div className="grid grid-cols-2 grid-rows-2 gap-0.5 w-10 h-10">
-          <div className={`w-5 h-5 rounded-sm ${rightColors.primary}`}></div>
-          <div className={`w-5 h-5 rounded-sm ${rightColors.secondary}`}></div>
-          <div className={`w-5 h-5 rounded-sm ${rightColors.secondary}`}></div>
-          <div className={`w-5 h-5 rounded-sm ${rightColors.primary}`}></div>
-        </div>
-      </div>
     </nav>
   );
 };

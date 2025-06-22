@@ -42,10 +42,10 @@ const HomePage: React.FC = () => {
           </div>
           
           <div className="text-left">
-            <h1 className="text-6xl font-bold text-gray-800 mb-2 italic transform -rotate-2">
+            <h1 className="text-6xl font-bold text-gray-800 mb-2 italic">
               Hello World!
             </h1>
-            <h2 className="text-6xl font-bold text-gray-800 mb-6 italic transform -rotate-1">
+            <h2 className="text-6xl font-bold text-gray-800 mb-6 italic">
               I&apos;m Simrah Shabandri
             </h2>
             <p className="text-2xl text-gray-600 leading-relaxed">
