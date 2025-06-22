@@ -2,8 +2,8 @@ export const portfolioData = {
     personal: {
         name: "Simrah Shabandri",
         title: "Computing & IT Student",
-        email: "simrahpatel16@gmail.com",
-        location: "Dubai, UAE",
+        email: "simrahshabandri@gmail.com",
+        location: "Sharjah, UAE",
         github: "https://github.com/SimrahRuqiya",
         linkedin: "https://www.linkedin.com/in/simrah-shabandri/",
         bio: "I'm a passionate developer with a strong interest in IT, Networking, Cloud Computing, Dev Ops, Software Development and UI/UX Design. I love creating innovative solutions and exploring new technologies.",
