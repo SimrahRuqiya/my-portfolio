@@ -9,6 +9,40 @@ export const portfolioData = {
         bio: "I'm a passionate developer with a strong interest in IT, Networking, Cloud Computing, Dev Ops, Software Development and UI/UX Design. I love creating innovative solutions and exploring new technologies.",
         cv: "src/assets/SimrahShabandri_CV.pdf"
     },
+      skills: [
+    // Programming Languages
+    { name: 'Python', icon: '/icons/python.svg', category: 'programming' },
+    { name: 'Java', icon: '/icons/java.svg', category: 'programming' },
+    { name: 'JavaScript', icon: '/icons/javascript.svg', category: 'programming' },
+    { name: 'TypeScript', icon: '/icons/typescript.svg', category: 'programming' },
+    { name: 'Bash', icon: '/icons/csharp.svg', category: 'programming' },
+    
+    // Web Development
+    { name: 'HTML5', icon: '/icons/html5.svg', category: 'web' },
+    { name: 'CSS3', icon: '/icons/css3.svg', category: 'web' },
+    { name: 'React', icon: '/icons/react.svg', category: 'web' },
+    { name: 'Next.js', icon: '/icons/nextjs.svg', category: 'web' },
+    { name: 'Tailwind CSS', icon: '/icons/tailwind.svg', category: 'web' },
+    { name: 'Swift', icon: '/icons/swift.svg', category: 'web' },
+    { name: 'Node.js', icon: '/icons/nodejs.svg', category: 'web' },
+    { name: 'Spring Boot', icon: '/icons/spring.svg', category: 'web' },
+    
+    // Database
+    { name: 'MySQL', icon: '/icons/mysql.svg', category: 'database' },
+    { name: 'MariaDB', icon: '/icons/postgresql.svg', category: 'database' },
+    { name: 'PostgreSQL', icon: '/icons/mongodb.svg', category: 'database' },
+    
+    // Cloud & DevOps
+    { name: 'Azure', icon: '/icons/aws.svg', category: 'cloud' },
+    { name: 'AWS', icon: '/icons/docker.svg', category: 'cloud' },
+    { name: 'Docker', icon: '/icons/kubernetes.svg', category: 'cloud' },
+    { name: 'Jenkins', icon: '/icons/jenkins.svg', category: 'cloud' },
+    
+    // Tools
+    { name: 'Git', icon: '/icons/git.svg', category: 'tools' },
+    { name: 'VS Code', icon: '/icons/vscode.svg', category: 'tools' },
+    { name: 'Figma', icon: '/icons/figma.svg', category: 'tools' },
+    ],
     projects: {
         webDevelopement: [
         {
